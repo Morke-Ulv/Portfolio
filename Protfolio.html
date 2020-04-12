@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Protfolio.css">
+    <title>Blake Lewis | Beginner Web Developer</title>
+</head>
+<body>
+    <div class = "container-fluid bg-secondary">
+        <div class="row">
+            <div class = "col-lg-12">
+
+                <div id = "projectSlider" class = "carousel slide" data-ride="carousel">
+                    <!--dot nav-->
+                    <ol class = "carousel-indicators">
+                        <li data-target="#projectSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#projectSlider" data-slide-to="1"></li>
+
+                    </ol>
+
+                    <!--wrapper for slides-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="StaticStore.html">
+                                <img src="C:\Users\morke\OneDrive\Documents\ElevenFifty\.Net\Assets\Portfolio pic\darksoulscafe.jpg" height = 300px  width = 100% alt="Store Front Project">
+                                <div class="carousel-caption">
+                                    <h3>Dark Souls Cafe Store Front</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/Morke-Ulv/ConsoleGameApp">
+                                <img src="C:\Users\morke\OneDrive\Documents\ElevenFifty\.Net\Assets\Portfolio pic\galaganar.jpg" height = 300px width= 100%  alt="Console App Project">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3>Console App Project</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--navigation arrows-->
+                    <a class="carousel-control-prev" href="#projectSlider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#projectSlider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+
+                    </div>
+                </div>
+                <div class = "col-lg-8 text-info">
+                    <h1>A little about me</h1>
+                    <p>My name is Blake Lewis, a gamer in my free time that wants to bring that passion of video games to a way of life for me. I've always loved gaming, it's how I met my best friends (nothing like a rocket to the face during class to meet your best friends),
+                        but even after getting IT Certified no one would look my way. So I need to learn more. Increase my skills in coding, and I thrive to learn more. 
+                    </p>
+                    </div>
+                <!--My index card-->
+                <div class="card fixed-top-right" style="width: 18rem;">
+                    <img src="C:\Users\morke\OneDrive\Documents\ElevenFifty\.Net\Assets\Portfolio pic\pictureOfSelf.jpg" class="card-img-top" alt="Picture of Self">
+                    <div class="card-body">
+                      <h5 class="card-title">Blake Lewis</h5>
+                      <p class="card-text">Ambitious beginner in web-development, ready to get out and prove to myself that all my classes were not for nothing!</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Currently Enrolled in ElevenFifty Achademy</li>
+                      <li class="list-group-item">Previously atteneded Central Nine Career Center for Information Technology</li>
+                      <li class="list-group-item">Currently working as a Diesel Mechanic</li>
+                    </ul>
+                    <div class="card-body">
+                      <h4><a href="C:\Users\morke\OneDrive\Documents\Lewis^J Blake A (1).docx" class="card-link">Resume</a></h4>
+                      <!--contact drop down form-->
+                      <div id="accordion" role="tablist">
+                        
+                          <div class="card-header" role="tab" id="headingOne">
+                            <h5 class="mb-0">
+                              <a data-toggle="collapse" href="#contact" aria-expanded="true" aria-controls="collapseOne">
+                                Contact Me
+                              </a>
+                            </h5>
+                          </div>
+                      
+                          <div id="contact" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="card-body">
+                                <form class="contact-form" action="Protfolio.php" method="post">
+                                    <input type = "text" name = "name" placeholder="Full Name">
+                                    <input type = " text" name="mail" placeholder="Your E-mail">
+                                    <input type="text" name="subject" placeholder="Subject">
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <button type="submit" name="submit">Send</button>
+                                </form>
+                            </div>
+                          </div>
+                        
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+    </div>
+
+
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
